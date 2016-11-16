@@ -19,10 +19,6 @@ h2 {
     color: #4aaaa5;
 }
 
-nav {
-    /*height: 100px;*/
-}
-
 footer {
     position: absolute;
     bottom: 0;
@@ -148,6 +144,7 @@ p.bannerText {
     padding: 20px;
 }
 
+
 /*#navbar .navbar-right>li:not(:last-child):after {
     content: "|";
     color: #e4e3e3;
@@ -197,4 +194,13 @@ p.bannerText {
     width: 70px;
     margin: 5px;
     padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  #main-content>img {
+      float: left;
+      padding: 20px;
+      height: 100%;
+      width: 100%;
+  }
 }
