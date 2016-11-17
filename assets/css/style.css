@@ -204,11 +204,44 @@ p.bannerText {
     border-color: #563D7C;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     #main-content>img {
         float: left;
         padding: 20px;
-        height: 100%;
         width: 100%;
+    }
+    #navbar {
+        margin: 0;
+    }
+    #navbar a.brand {
+        margin: 0;
+    }
+    #navbar>ul.navbar-right {
+        /*background-color: #fff;*/
+        height: auto;
+    }
+    #navbar.navbar-right>li {
+        background-color: #eee;
+    }
+    section img{
+      width: 70%;
+    }
+    p.bannerText {
+      width: 70%;
+    }
+    .panel-body{
+      padding: 15px 15px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #navbar {
+        background-color: #eee;
+    }
+    #navbar li>a:hover {
+        background-color: #cae8e6;
+    }
+    #navbar li {
+        float: none;
     }
 }
